@@ -1,0 +1,60 @@
+body{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(74, 76, 100);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+section video {
+  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .list{
+position: absolute;
+bottom: 50px;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+align-items: center;
+justify-content: space-between;
+ width: 50vw;
+}
+
+section .list li {
+    width: 210px;
+    height: 120px;
+    text-decoration: none;
+    background: #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    opacity: .8;
+    cursor: pointer;
+}
+
+section .list li:hover {
+ 
+    opacity:1;
+}
+
+section .list li img{
+    width: 200px;
+    height: 110px;
+    
+}
